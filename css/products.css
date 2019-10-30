@@ -44,6 +44,7 @@ body {
 
 #table-products {
     margin-top: 30px;
+    overflow-x: scroll !important;
 }
 
 #search-container {

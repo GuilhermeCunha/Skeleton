@@ -1,3 +1,8 @@
+body {
+    height: 100%;
+    max-height: 100%;
+}
+
 .navBar {
     background-color: #8b008b;
     overflow: hidden;
@@ -41,8 +46,6 @@
     padding: 10px;
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
     background-color: #8b008b;
     overflow: hidden;
 }
@@ -81,25 +84,5 @@
         float: none;
         display: block;
         text-align: left;
-    }
-    .footer-push {
-        height: auto;
-    }
-    .footer {
-        /* Placeholder footer styles */
-        text-align: center;
-        padding: 10px;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #8b008b;
-        overflow: hidden;
-    }
-    .footer span {
-        color: white;
-        text-decoration: none;
-        font-size: 15px;
-        font-family: Tahoma;
     }
 }
