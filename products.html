@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/_layout.css">
+    <link rel="stylesheet" href="css/products.css">
 
     <!--
         Scripts
     -->
     <script type="text/javascript" src="./js/_layout.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -33,7 +35,9 @@
 
 <body>
 
-    <div class="navBar" id="mainNavBar">
+
+
+    <div class="navBar " id="mainNavBar">
         <a href="./products.html">Home</a>
         <a href="./login.html">Login</a>
         <a href="./register.html">Register</a>
@@ -41,15 +45,61 @@
         <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
         <!--&#9776; is the code for the 3 line menu button-->
     </div>
+    <div class="container" id="search-container">
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
 
-</body>
-
-<footer id="footer" class="footer twelve columns">
-    <div class="row">
-        <div class="twelve colums">
-            <span>Equipe Skeleton</span>
+                </button>
+            </div>
         </div>
     </div>
-</footer>
+
+
+    <div class="container" id="table-products">
+        <div class="row">
+            <div class="twelve columns">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Origem</th>
+                            <th>Marca</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dave Gamache</td>
+                            <td>26</td>
+                            <td>Male</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>Dwayne Johnson</td>
+                            <td>42</td>
+                            <td>Male</td>
+                            <td>Male</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+    <footer id="footer" class="footer twelve columns">
+        <div class="row">
+            <div class="twelve colums">
+                <span>Equipe Skeleton</span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
 
 </html>
