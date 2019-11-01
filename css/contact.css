@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+#title{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#form{
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#submitbutton{
+    background-color: goldenrod;
+    border: gold;
+    
+}

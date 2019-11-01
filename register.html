@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>GuisCheese</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/_layout.css">
+  <link rel="stylesheet" href="css/register.css">
+
+  <!--
+        Scripts
+    -->
+  <script type="text/javascript" src="./js/_layout.js"></script>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+  <div class="navBar" id="mainNavBar">
+    <a href="./products.html">Home</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    <a href="./products.html">Products</a>
+    <a href="./contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+    <!--&#9776; is the code for the 3 line menu button-->
+  </div>
+  <!-- The above form looks like this -->
+
+        <h2 ID="title"><strong>Cadastro de Produtos</strong></h2>
+
+  </div>
+
+  <form id="Formulario">
+    <div>
+        <div class="row">
+            <div class="twelve columns">
+                <label for="exampleMessage">Nome</label>
+                <input class="u-full-width" type="text" placeholder="Nome do Produto" id="exampleNomeproduto">
+                
+            </div>
+        </div>
+            
+        <label for="exampleMessage">Origem</label>
+        <input class="u-full-width" type="text" placeholder="Origem do Produto" id="exampleOrigem">
+        <label for="exampleMessage">Marca</label>
+        <input class="u-full-width" type="text" placeholder="Marca do Produto" id="exampleMarca">
+        <label for="exampleMessage">Preço</label>
+        <input class="u-full-width" type="number" placeholder="Preço Kg do Produto" id="exampleNomeproduto">
+        <input id="Botao" class="button-primary" type="submit" value="Cadastrar">
+    </div>
+    
+  </form>
+
+  <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+  <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+
+</body>
+
+<footer id="footer" class="footer twelve columns">
+  <div class="row">
+    <div class="twelve colums">
+      <span>Equipe Skeleton</span>
+    </div>
+  </div>
+</footer>
+
+</html>

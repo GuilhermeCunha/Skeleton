@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Products</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/_layout.css">
+    <link rel="stylesheet" href="css/products.css">
+
+    <!--
+        Scripts
+    -->
+    <script type="text/javascript" src="./js/_layout.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+
+
+
+    <div class="navBar " id="mainNavBar">
+        <a href="./products.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./register.html">Register</a>
+        <a href="./products.html">Products</a>
+        <a href="./contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+        <!--&#9776; is the code for the 3 line menu button-->
+    </div>
+    <div class="container" id="search-container">
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="table-products">
+        <div class="row">
+            <div class="twelve columns">
+                <table class="u-full-width">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Origem</th>
+                            <th>Marca</th>
+                            <th>Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-desc">
+                        <tr onclick="location.href = 'description.html'">
+                            <td>Gorgonzola</td>
+                            <td>Milan/Italy</td>
+                            <td>Vigor</td>
+                            <td>R$59,00/kg</td>
+                        </tr>
+                        <tr onclick="location.href = 'description2.html'">
+                            <td>Gouda</td>
+                            <td>Gouda/Italy</td>
+                            <td>Vigor</td>
+                            <td>R$69,00/kg</td>
+                        </tr>
+                        <tr onclick="location.href = 'description3.html'">
+                            <td>Parmesão/Italy</td>
+                            <td>Parma</td>
+                            <td>Guilherme</td>
+                            <td>R$150,00/kg</td>
+                        </tr>
+                        <tr onclick="location.href = 'description4.html'">
+                            <td>Ricota</td>
+                            <td>Unknown/Italy</td>
+                            <td>Vigor</td>
+                            <td>R$59,00/kg</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+<footer>
+    <div id="footer" class="footer twelve columns">
+        <div class="row">
+            <div class="twelve colums">
+                <span>Equipe Skeleton</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</html>

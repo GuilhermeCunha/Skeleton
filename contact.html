@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/_layout.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+  <!--
+      Scripts
+  -->
+  <script type="text/javascript" src="./js/_layout.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+
+<body>
+
+  <div class="navBar " id="mainNavBar">
+    <a href="./products.html">Home</a>
+    <a href="./login.html">Login</a>
+    <a href="./register.html">Register</a>
+    <a href="./products.html">Products</a>
+    <a href="./contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+    <!--&#9776; is the code for the 3 line menu button-->
+  </div>
+
+  <h2 ID="title">
+    <strong>Hi, we are the GuisCheese's Official Online Store!<br>
+      In this page, you will find a manner to contact us,<br><br>
+      Please, feel free to send your Feedback!
+    </strong></h2>
+
+  <!-- The above form looks like this -->
+  <form ID="form">
+    <div class="row">
+      <div class="six columns">
+        <label for="exampleEmailInput">Your e-mail:</label>
+        <input class="u-full-width" type="email" placeholder="youremail@example.com">
+      </div>
+      <div class="six columns">
+        <label for="exampleRecipientInput">Reason for contacting us:</label>
+        <select class="u-full-width">
+          <option value="Option 1">Questions</option>
+          <option value="Option 2">Compliments</option>
+          <option value="Option 3">Complaints</option>
+          <option value="Option 4">General Feedback</option>
+          <option value="Option 4">Something Wrong With Your Cheese</option>
+          <option value="Option 4">Delayed Order</option>
+          <option value="Option 4">Other</option>
+        </select>
+      </div>
+    </div>
+    <label for="exampleMessage">Your Message to the GuisCheese's Official Website:</label>
+    <textarea class="u-full-width"></textarea>
+    <label class="example-send-yourself-copy">
+      <input type="checkbox">
+      <span class="label-body">Send a copy to yourself</span>
+    </label>
+    <input ID="submitbutton" class="button-primary" type="submit" value="Submit">
+  </form>
+
+  <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+
+</body>
+
+</html>
